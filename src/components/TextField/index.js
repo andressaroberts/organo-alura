@@ -5,7 +5,6 @@ const TextField = (props) => {
   const [value, setValue] = useState("");
 
   const onType = (event) => {
-    // vou armanezar o que digitei
     setValue(event.target.value);
     props.onChange(event.target.value);
   };
